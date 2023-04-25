@@ -10,8 +10,8 @@ int main()
 		scanf("%f",&x);
 		printf("Enter operand2: ");
 		scanf("%f",&y);
-		printf("Enter operation: ");
-		scanf(" %c",&z);
+		//printf("Enter operation: ");
+		//scanf(" %c",&z);
 		switch(z)
 		{
 			case '+':
@@ -32,7 +32,7 @@ int main()
 		}
 		printf("Would you like to repeat y/n: ");
 		scanf(" %c",&r);
-		
+		printf("Would you like to repeat y/n: ");
 	}
 	while (r=='y');
 }
